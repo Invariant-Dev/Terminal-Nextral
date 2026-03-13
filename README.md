@@ -6,7 +6,7 @@ A cinematic, personalized cyberpunk terminal with auto-install, interactive comm
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## 🎯 What is Nextral?
 
@@ -319,7 +319,7 @@ Built with amazing tools:
 
 ## 📝 License
 
-MIT License - Free to use, modify, and distribute
+GNU General Public License v3.0 - Free to use, modify, and distribute
 
 ---
 
