@@ -1,0 +1,376 @@
+{
+    "plugins": [
+        {
+            "id": "nmap",
+            "aliases": [
+                "nmap",
+                "nmap-scan"
+            ],
+            "module": "nmap_screen",
+            "class": "NmapScreen",
+            "args": [
+                "target"
+            ],
+            "help": "Network mapper & port scanner",
+            "category": "ATTACK"
+        },
+        {
+            "id": "nikto",
+            "aliases": [
+                "nikto",
+                "niktoscan",
+                "webscan",
+                "dirbust"
+            ],
+            "module": "nikto_screen",
+            "class": "NiktoScreen",
+            "args": [
+                "target"
+            ],
+            "help": "Web vulnerability scanner",
+            "category": "ATTACK"
+        },
+        {
+            "id": "hydra",
+            "aliases": [
+                "hydra",
+                "brute"
+            ],
+            "module": "hydra_screen",
+            "class": "HydraScreen",
+            "args": [
+                "target",
+                "service"
+            ],
+            "help": "Online password / brute-force cracker",
+            "category": "ATTACK"
+        },
+        {
+            "id": "netcat",
+            "aliases": [
+                "nc",
+                "netcat",
+                "listen"
+            ],
+            "module": "netcat_screen",
+            "class": "NetcatScreen",
+            "args": [
+                "target",
+                "port"
+            ],
+            "help": "TCP/UDP connect or listen tool",
+            "category": "ATTACK"
+        },
+        {
+            "id": "tcpdump",
+            "aliases": [
+                "tcpdump",
+                "packetcap",
+                "sniff",
+                "netcap"
+            ],
+            "module": "tcpdump_screen",
+            "class": "TcpdumpScreen",
+            "args": [
+                "interface"
+            ],
+            "help": "Professional packet capture / sniffer",
+            "category": "ATTACK"
+        },
+        {
+            "id": "stun",
+            "aliases": [
+                "stun",
+                "whatsapp-ip",
+                "whatsapp-tracer"
+            ],
+            "module": "whatsapp_ip_tracer_screen",
+            "class": "WhatsAppIPTracerScreen",
+            "args": [],
+            "help": "WhatsApp IP Tracer - Find WhatsApp server IPs",
+            "category": "ATTACK"
+        },
+        {
+            "id": "openssl",
+            "aliases": [
+                "openssl",
+                "ssltool",
+                "cert"
+            ],
+            "module": "openssl_tool",
+            "class": "OpenSSLTool",
+            "args": [],
+            "help": "Certificate & crypto toolkit",
+            "category": "ATTACK"
+        },
+        {
+            "id": "valkyrie",
+            "aliases": [
+                "valkyrie",
+                "hashcrack",
+                "crack"
+            ],
+            "module": "valkyrie",
+            "class": "ValkyrieScreen",
+            "args": [],
+            "help": "Hash identifier & cracker",
+            "category": "ATTACK"
+        },
+        {
+            "id": "exif",
+            "aliases": [
+                "exif",
+                "metadata",
+                "exif-ray"
+            ],
+            "module": "exif_ray",
+            "class": "ExifRayScreen",
+            "args": [],
+            "help": "Metadata forensic analyzer",
+            "category": "ATTACK"
+        },
+        {
+            "id": "shell_lab",
+            "aliases": [
+                "shell-lab",
+                "payload",
+                "revshell",
+                "shells"
+            ],
+            "module": "shell_lab",
+            "class": "ShellLab",
+            "args": [],
+            "help": "Multi-language reverse shell & payload lab",
+            "category": "ATTACK"
+        },
+        {
+            "id": "osint",
+            "aliases": [
+                "osint",
+                "recon"
+            ],
+            "module": "osint_tool",
+            "class": "OSINTTool",
+            "args": [],
+            "help": "Open-source intelligence tool",
+            "category": "ATTACK"
+        },
+        {
+            "id": "xray",
+            "aliases": [
+                "xray",
+                "vulnscan"
+            ],
+            "module": "xray_tool",
+            "class": "XRayTool",
+            "args": [],
+            "help": "Advanced vulnerability scanner",
+            "category": "ATTACK"
+        },
+        {
+            "id": "sandbox",
+            "aliases": [
+                "sandbox",
+                "malanalyze"
+            ],
+            "module": "sandbox_tool",
+            "class": "SandboxTool",
+            "args": [],
+            "help": "Malware analysis sandbox",
+            "category": "ATTACK"
+        },
+        {
+            "id": "ssh",
+            "aliases": [
+                "ssh",
+                "sshclient"
+            ],
+            "module": "ssh_screen",
+            "class": "SSHScreen",
+            "args": [
+                "host"
+            ],
+            "help": "Interactive SSH client with connection manager",
+            "category": "GENERAL"
+        },
+        {
+            "id": "sentinel",
+            "aliases": [
+                "sentinel"
+            ],
+            "module": "sentinel",
+            "class": "SentinelScreen",
+            "args": [],
+            "help": "Visual process manager (Task Manager)",
+            "category": "GENERAL"
+        },
+        {
+            "id": "blackbook",
+            "aliases": [
+                "book",
+                "blackbook",
+                "snippets"
+            ],
+            "module": "blackbook",
+            "class": "BlackbookScreen",
+            "args": [],
+            "help": "Command snippet vault",
+            "category": "GENERAL"
+        },
+        {
+            "id": "breach",
+            "aliases": [
+                "breach",
+                "breachwatch",
+                "watch"
+            ],
+            "module": "breach_watch",
+            "class": "BreachWatchScreen",
+            "args": [],
+            "help": "Real-time security event monitor",
+            "category": "GENERAL"
+        },
+        {
+            "id": "vault",
+            "aliases": [
+                "vault",
+                "vaultx",
+                "vault-x"
+            ],
+            "module": "vault_x",
+            "class": "VaultScreen",
+            "args": [],
+            "help": "Secure file encryption vault",
+            "category": "GENERAL"
+        },
+        {
+            "id": "cipher",
+            "aliases": [
+                "cipher",
+                "encrypt",
+                "decrypt"
+            ],
+            "module": "cipher",
+            "class": "CipherScreen",
+            "args": [],
+            "help": "Message encryption tool",
+            "category": "GENERAL"
+        },
+        {
+            "id": "proxychain",
+            "aliases": [
+                "proxy",
+                "proxychain",
+                "route"
+            ],
+            "module": "proxy_chain",
+            "class": "ProxyScreen",
+            "args": [],
+            "help": "Network route visualization",
+            "category": "GENERAL"
+        },
+        {
+            "id": "obelisk",
+            "aliases": [
+                "obelisk",
+                "stats",
+                "activity"
+            ],
+            "module": "obelisk",
+            "class": "ObeliskScreen",
+            "args": [],
+            "help": "Activity heatmap & dashboard",
+            "category": "GENERAL"
+        },
+        {
+            "id": "settings",
+            "aliases": [
+                "settings"
+            ],
+            "module": "settings_screen",
+            "class": "SettingsScreen",
+            "args": [],
+            "help": "Configure Nextral preferences",
+            "category": "GENERAL"
+        },
+        {
+            "id": "install",
+            "aliases": [
+                "install",
+                "installwizard",
+                "setup",
+                "wizard"
+            ],
+            "module": "install_wizard_screen",
+            "class": "InstallWizardScreen",
+            "args": [],
+            "help": "Dependency installer wizard",
+            "category": "GENERAL"
+        },
+        {
+            "id": "explorer",
+            "aliases": [
+                "explorer",
+                "files",
+                "browse"
+            ],
+            "module": "explorer_screen",
+            "class": "ExplorerScreen",
+            "args": [],
+            "help": "File explorer & navigator",
+            "category": "GENERAL"
+        },
+        {
+            "id": "agent",
+            "aliases": [
+                "agent",
+                "nexus",
+                "ai"
+            ],
+            "module": "agent_screen",
+            "class": "AgentScreen",
+            "args": [],
+            "help": "Nexus AI HUD - Intelligent automation",
+            "category": "AGENT"
+        },
+        {
+            "id": "msf",
+            "aliases": [
+                "msf",
+                "metasploit",
+                "rpc"
+            ],
+            "module": "msf_bridge",
+            "class": "MSFBridgeScreen",
+            "args": [],
+            "help": "Metasploit RPC Bridge Interface",
+            "category": "ELITE MODULES"
+        },
+        {
+            "id": "venomous",
+            "aliases": [
+                "venomous",
+                "payloads",
+                "c2"
+            ],
+            "module": "payload_factory",
+            "class": "PayloadFactoryScreen",
+            "args": [],
+            "help": "Venomous Payload Factory for C2 Evasion",
+            "category": "ELITE MODULES"
+        },
+        {
+            "id": "burp",
+            "aliases": [
+                "burp",
+                "proxy",
+                "intercept"
+            ],
+            "module": "proxy_intercept",
+            "class": "ProxyInterceptScreen",
+            "args": [],
+            "help": "Burp-Terminal Proxy Intercept",
+            "category": "ELITE MODULES"
+        }
+    ]
+}

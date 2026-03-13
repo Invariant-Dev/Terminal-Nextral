@@ -1,0 +1,3 @@
+@echo off
+echo Requesting Administrator privileges...
+powershell -Command "Start-Process python -ArgumentList 'nextral.py' -Verb RunAs"

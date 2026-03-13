@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Node
+node_modules/
+package-lock.json
+
+# WhatsApp session data
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Build artifacts
+build_temp/
+dist/
+*.exe
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Nextcord
+.venv/

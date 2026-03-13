@@ -1,0 +1,64 @@
+{
+    "user": {
+        "username": "USER",
+        "theme_color": "cyan",
+        "auto_login": false
+    },
+    "terminal": {
+        "history_size": 1000,
+        "max_output_lines": 2000,
+        "cursor_style": "block",
+        "blinking_cursor": true,
+        "typing_effect_speed": 0.0,
+        "crt_mode": false,
+        "boot_animation_enabled": true
+    },
+    "shell": {
+        "prompt_format": "{username}@Nextral {cwd} ~> "
+    },
+    "widgets": {
+        "default_visible": false,
+        "animations_enabled": true
+    },
+    "ai": {
+        "provider": "Ollama",
+        "ollama_model": "llama3",
+        "openai_key": "",
+        "openai_model": "gpt-3.5-turbo",
+        "gemini_key": "",
+        "gemini_model": "gemini-pro",
+        "anthropic_key": "",
+        "anthropic_model": "claude-3-opus-20240229",
+        "imap_host": "imap.gmail.com",
+        "imap_user": "",
+        "imap_password": "",
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": 587,
+        "smtp_user": "",
+        "smtp_password": "",
+        "ollama_url_primary": "http://localhost:11434",
+        "ollama_url_secondary": "",
+        "shodan_api_key": ""
+    },
+    "ui": {
+        "show_net_panel": true,
+        "show_sys_panel": true,
+        "show_sec_panel": true,
+        "show_git_panel": true,
+        "show_geo_globe": false,
+        "sidebar_transparency": 0
+    },
+    "external_tools": {
+        "nmap": "nmap",
+        "netcat": "nc",
+        "nikto": "nikto",
+        "hydra": "hydra",
+        "tcpdump": "tcpdump",
+        "openssl": "openssl",
+        "curl": "curl",
+        "wget": "wget",
+        "ssh": "ssh",
+        "sqlmap": "sqlmap",
+        "hashcat": "hashcat"
+    }
+}
