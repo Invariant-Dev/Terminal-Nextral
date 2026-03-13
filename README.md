@@ -29,6 +29,25 @@ By using this software, you explicitly agree to the following:
 
 Nextral is a futuristic terminal interface that transforms your command line into a cinematic experience while acting as a powerful hub for cybersecurity operations. Think Tony Stark's JARVIS meets a highly capable hacker terminal.
 
+---
+
+## 🛰️ Why Nextral?
+
+Modern penetration testing workflows often require juggling multiple tools:
+- **Metasploit** for exploitation
+- **Netcat** for listeners
+- **Custom scripts** for recon
+- **External generators** for stagers
+
+Nextral unifies these capabilities into a single cinematic terminal environment designed for research labs, cybersecurity training, and red-team simulations.
+
+### 📝 A Note from the Developer
+This project started because I wanted a custom terminal for myself—something I could be proud to use every day. As I built out the complex UI, I realized I wanted to make testing in my own homelab easier and more streamlined. I wanted to bring the power of professional cybersecurity tools to everyone in a way that felt intuitive and immersive. 
+
+Nextral is the result of a year of on-and-off work. It's my passion project, and I'm finally ready to share it with the world.
+
+---
+
 ### ✨ Key Features:
 - **VENOMOUS PAYLOAD FACTORY V4** - Modular C2 framework with polymorphic encoding, EDR evasion, API unhooking, direct syscalls (HellsGate), and multi-language stagers (Nim, Rust, Go, C#, Python, PS1).
 - **INTEGRATED C2 LISTENER** - Built-in asynchronous Command & Control listener for handling reverse shells and encrypted beacon traffic (DNS & ICMP).
