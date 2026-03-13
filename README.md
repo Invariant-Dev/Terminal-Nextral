@@ -5,7 +5,7 @@
 A cinematic, personalized cyberpunk terminal with auto-install, interactive commands, and JARVIS-style animations
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## 🎯 What is Nextral?
@@ -294,7 +294,7 @@ For the best experience:
 
 ## 📊 System Requirements
 
-- **OS**: Windows 10/11
+- **OS**: Windows 10/11 or Modern Linux
 - **Python**: 3.8 or higher
 - **RAM**: 50MB for app
 - **Storage**: 100MB for dependencies
